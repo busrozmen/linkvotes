@@ -1,0 +1,51 @@
+.link-card{
+    display: flex;
+    background-clip: border-box;
+    width: 50%;
+    margin: auto;
+    flex-direction: row;
+    border-bottom: 1px solid #343a40;
+    position: relative;
+}
+.link-img{
+    text-align: center;
+}
+.link-img svg{
+    font-size: 25px;
+}
+.link-img .link-point{
+    padding-top: 10px;
+}
+.link-img , .link-body{
+    padding: 1rem;
+}
+.link-img{
+    width: 30%;
+}
+.link-body{
+    width: 70%;
+}
+.link-img img{
+    width: 40px;
+    height: 50px;
+}
+.vote-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: .8rem;
+}
+.vote-buttons span{
+    cursor: pointer;
+}
+.remove-btn.hidden{
+    display: none;
+}
+.remove-btn.block{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    color:#ff9800bd;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.add-link{
+    width: 50%;
+    margin: 20px auto;
+}
+.add-link h5{
+    text-align: center;
+    border-bottom: 2px solid #ffa500;
+}
+.add-link form{
+    padding:10px;
+}
+.add-link label{
+    font-size: 15px;
+}
+.add-link button{
+    float: right;
+    background-color: #ffa500;
+    border-color: #ffa500;
+    color: #000;
+}
+.add-link p{
+    font-size: 14px;
+    padding: 20px 10px;
+    color: #000;
+}
+.add-link svg{
+    font-size: 10px;
+}

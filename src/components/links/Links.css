@@ -1,0 +1,33 @@
+.links-wrapper{
+    padding: 25px 0;
+    margin: auto;
+}
+.add-new-link{
+    display: flex !important;
+    width: 50%;
+    height: 50px;
+    background-color: #ff9800bd !important;
+    border-color: #ff9800bd !important;
+    color:#343a40 !important;
+    margin: 20px auto;
+}
+.add-new-link span{
+    padding: 5px 10px;
+}
+.add-new-link svg{
+    font-size: 30px;
+    padding-top: 5px;
+}
+.sort-wrapper{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+}
+.sort-wrapper .tabs a{
+    padding: 5px 15px;
+    border: 1px solid #827f7f80;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.pagination{
+    width: 50%;
+    margin: 50px auto;
+    justify-content: flex-end;
+}
+.page-link{
+    background-color: transparent !important;
+    border: none !important;
+    color: #212529 !important;
+}
+.page-item.active .page-link{
+    color: #000000 !important;
+    font-weight: 600;
+}
+.page-link:focus {
+    box-shadow: none !important;
+}
